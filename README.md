@@ -1,4 +1,5 @@
-i have to edit the read me and re-commit the files
+Check to see if git works
+
 
 
 

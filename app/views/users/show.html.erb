@@ -8,8 +8,19 @@
 
 <h3 class="text-center mt-4">Articles</h3>
 
+<div class="flickr_pagination">
+top div
+  <%= will_paginate @articles, :container => false %>
+</div>
+
 <%= render 'articles/article' %>
 
+<div class="flickr_pagination mb-4">
+bottom div
+  <%= will_paginate @articles, :container => false %>
+</div>
 
 
 
+
+ 
